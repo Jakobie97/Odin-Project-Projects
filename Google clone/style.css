@@ -1,0 +1,64 @@
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input {
+  line-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #5f6368;
+}
+button {
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  border: none;
+}
+
+button:hover {
+  border: 1px solid #5f6368;
+}
+
+footer {
+  margin-top: 20%;
+
+  background-size: cover;
+}
+
+#nav-right {
+  margin-top: 0%;
+  display: inline-block;
+  margin-left: 70%;
+}
+
+#nav-left {
+  margin-top: 0px;
+
+  display: inline-block;
+}
+
+#foot-left {
+  display: inline-block;
+}
+
+#foot-right {
+  float: right;
+  display: inline-block;
+}
+
+#google-logo {
+  text-align: center;
+  margin-top: 10%;
+}
