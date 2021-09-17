@@ -1,0 +1,59 @@
+body {
+  background-color: #eceef1;
+}
+#signIn-container {
+  text-align: right;
+  margin: 0%;
+  padding: 0%;
+}
+
+#Logo {
+  margin-top: 0%;
+  text-align: center;
+}
+
+#formTitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+form {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-right: 35%;
+  margin-left: 35%;
+  background-color: white;
+  margin-bottom: 50px;
+}
+input {
+  border: 1px solid lightgrey;
+}
+
+input,
+label {
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 10px;
+  background-color: #0078c6;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+form button {
+  padding-right: 20%;
+  padding-left: 20%;
+  margin-bottom: 20px;
+  margin-left: 17%;
+  background-color: #0078c6;
+  color: white;
+
+  margin: 0 auto;
+  display: block;
+}
