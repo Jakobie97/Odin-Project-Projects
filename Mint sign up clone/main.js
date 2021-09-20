@@ -1,10 +1,9 @@
-let createAccountBtn = document.getElementById("createBtn");
-let EmailElement = document.getElementById("EmailEl")
-let PhoneElement = document.getElementById("PhoneEl")
-let PasswordElement = document.getElementById("PhoneEl")
+let form = document.getElementById("form")
 
-createAccountBtn.addEventListener('click', function() {
-
-    //TODo: Save User Input
-})
+form.onsubmit = function(event) {
+   event.preventDefault();
+    console.log("User Email :: " + form.Email.value)
+    console.log("User Phone :: " + form.Phone.value)
+    console.log("User Password :: " + form.Password.value)
+}
 
